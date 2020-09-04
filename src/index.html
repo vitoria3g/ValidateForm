@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/head.png" >
+    <title>Validação Customizada</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+    <!--defer: para que o js seja iniciado após o html estar na tela-->
+    <!--é a mesma coisa de deixa-lo na parte inferior do html-->
+    <!--<script src="js/script.js" defer></script> -->
+    <script src="js/scriptImplementado.js" defer></script>
+  </head>
+  <body>
+    <form action="">
+      
+      <h2>Formulário</h2>
+
+      <div class="input">
+        <input required type="text"/>
+        <label>Nome</label>
+        <span class="error"></span>
+      </div>
+      <div class="input">
+        <input required type="email"/>
+        <label>Email</label>
+        <span class="error"></span>
+      </div>
+      <button type="submit" id="btn_envia">Enviar</button>
+    </form>
+  </body>
+</html>
